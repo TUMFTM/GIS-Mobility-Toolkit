@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="KMLfile" id="KMLfile">
+	<SimpleField name="Latitude" type="float"></SimpleField>
+	<SimpleField name="Longitude" type="float"></SimpleField>
+</Schema>
+<Folder><name>KMLfile</name>
+  <Placemark>
+	<name>Point1</name>
+	<ExtendedData><SchemaData schemaUrl="#KMLfile">
+		<SimpleData name="Latitude">40.7128</SimpleData>
+		<SimpleData name="Longitude">-74.006</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.006,40.7128</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Point2</name>
+	<ExtendedData><SchemaData schemaUrl="#KMLfile">
+		<SimpleData name="Latitude">34.0522</SimpleData>
+		<SimpleData name="Longitude">-118.2437</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-118.2437,34.0522</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Point3</name>
+	<ExtendedData><SchemaData schemaUrl="#KMLfile">
+		<SimpleData name="Latitude">41.8781</SimpleData>
+		<SimpleData name="Longitude">-87.6298</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-87.6298,41.8781</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,11 @@
+psql_auth:
+  host: "osm_psql_host"
+  port:  osm_psql_port
+  username: "osm_psql_username"
+  password: "osm_psql_password"
+  database: psq_psql_database
+osm_mid_mappings:
+  file: ${PROJECT_DIR_PATH}/core/osm/config/OSM_MID_SLP.xlsx
+  sheet: "Mappings"
+  additional_mappings:
+    - ${PROJECT_DIR_PATH}/core/osm/config/mappings/landuse_munich_mappings.json

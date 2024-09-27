@@ -1,0 +1,28 @@
+last_update: 2024-09-26 08:35:13.010517
+layers:
+  base_h3_5:
+    mode: DataLayer
+    name: base_h3_5
+    operator:
+      mask: h3
+      resolution: 8
+      type: tesselate
+    origin: base_layer
+    path_is_relative: true
+    type: places
+  base_layer:
+    mode: BaseDataLayer
+    name: base_layer
+    path: tutorial_pois.gpkg
+    path_is_relative: true
+    type: places
+  join_base_h3_5:
+    mode: DataLayer
+    name: join_base_h3_5
+    operator:
+      join: base_layer
+      type: join
+    origin: base_h3_5
+    path_is_relative: true
+    type: places
+version: 8

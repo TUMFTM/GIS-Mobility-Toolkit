@@ -1,0 +1,19 @@
+last_update: 2024-04-26 19:07:20.780134
+layers:
+  base_layer:
+    mode: BaseDataLayer
+    name: base_layer
+    path: format_tests\geojson_test.gpkg
+    path_is_relative: true
+    type: places
+  transform_layer:
+    mode: DataLayer
+    name: transform_layer
+    operator:
+      mask: h3
+      type: tesselate
+      resolution: 8
+    origin: base_layer
+    path_is_relative: true
+    type: places
+version: 3

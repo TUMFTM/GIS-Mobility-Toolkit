@@ -1,0 +1,35 @@
+name: smm
+channels: 
+  - defaults
+  - conda-forge 
+dependencies:
+  - python==3.9
+  - fiona==1.9.1
+  - libgdal==3.6.2
+  - gdal==3.6.2
+  - numpy<2.0
+  - pandas
+  - geopandas
+  - sqlalchemy
+  - psycopg2
+  - more-itertools
+  - jsonpath-ng
+  - dotmap
+  - libspatialite
+  - beautifulsoup4
+  - lxml==4.8.0
+  - openpyxl
+  - pip
+  - pip:
+    - srai[all]
+    - geoparquet
+    - pydantic>2.0
+    - rasterio
+    - rioxarray
+    - sqlglot
+    - piny
+    - aenum
+    - topojson
+    - geofileops>=0.8.1
+    - spatialite
+    - pyproj==3.31
