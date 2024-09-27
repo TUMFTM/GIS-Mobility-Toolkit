@@ -1,7 +1,8 @@
-# GIS-Mobility-Toolkit
-This repository is created in preparation for an ITSC publication. The GIS-Mobility-Toolkit allows to derive land-use data in a structured way from OSM data. It can be fully integrated into the Mapnik; OSM ecosystem and also brings additional features for geographical data merging.
+# Spatial Mobility Metrics
+![short-summary-image](assets/Landuse_Map_Munich_Advanced.png "Exemplary Land-Use Derivation of Munich")
+This repository is created in addition to the publication "Enhancing Transportation Insights: A Scalable OpenStreetMap Harmonization and Synthesis Framework", released at ITSC 2024, Edmonton Canada. The repository covers read/write, discretization and fusion features for geospatial data. One main contribution involves a land-use extraction module based on the mapnik configuration, that allows to derive land-use data from osm data. The framework is structured as following:
 
-The full code should be released after the publications acceptance.
+![short-framework-overview](assets/Framework_Overview.png "Framework overview")
 
 ## Getting started
 
@@ -9,7 +10,8 @@ For default setup pyyaml is required, then:
 ```shell
 pip install .
 ```
-
+## Tutorials
+You can find example Jupyter notebooks in the "examples" folder. These should help to get familiar with the main functions.
 
 ## Development
 
